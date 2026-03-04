@@ -6,11 +6,9 @@ casos_dengue.csv
 dados_climaticos.csv
 alertas_gerados.csv
 
-# Arquivos Python compilados
 __pycache__/
 *.pyc
 *.pyo
 
-# Arquivos do sistema
 .DS_Store
 Thumbs.db

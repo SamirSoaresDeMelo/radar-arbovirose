@@ -32,7 +32,7 @@ for col in ['IDADE_ANOS', 'SEM_NOT', 'NU_ANO', 'ID_REGIONA', 'ID_MN_RESI', 'ID_R
 # Remove linhas sem data (impossíveis de cruzar)
 antes = len(df_sinan)
 df_sinan.dropna(subset=['DT_NOTIFIC'], inplace=True)
-print(f"  Linhas removidas por data inválida: {antes - len(df_sinan)}")
+print(f"  Linhas removidas por data inválida: {antes - len(df_sinan)}") 
 print(f"  SINAN limpo: {len(df_sinan)} linhas")
 
 # =============================================================================
